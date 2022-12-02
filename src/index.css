@@ -1,13 +1,90 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+nav{
+  border-bottom: 1px solid gainsboro;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: -3px 15px;
+}
+
+.bold-text{
+  font-weight: bold;
+}
+
+.font-small{
+  font-size: small;
+}
+
+.font-large{
+  font-size: large;
+}
+
+.green-text{
+  color: green;
+}
+
+.nav-start{
+  display: flex;
+  align-items: center;
+}
+
+.nav-start img{
+  margin-right: 12px;
+}
+
+.nav-end img{
+  margin-left: 12px;
+}
+
+.main-section{
+  width: 100%;
+  display: flex;
+  height: calc(100vh - 43px);
+}
+
+.w-30{
+  display: inline-block;
+  width: 17%;
+  border-right: 1px solid gainsboro;
+}
+
+.main-sidebar{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.upper-sidebar{
+  display: inline-block;
+  height: 60%;
+  border-bottom: 1px solid gainsboro;
+  padding: 7px 15px;
+  margin-top: 5px;
+}
+
+.lower-sidebar-up{
+  display: inline-block;
+  padding: 7px 15px;
+  /* border-bottom: 1px solid gainsboro; */
+}
+
+.private{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.private-left{
+  display: flex;
+  align-items: center;
+}
+
+
+.lower-sidebar-down{
+  display: flex;
+  align-items: center;
+  padding: 7px 15px;
+  border-top: 1px solid gainsboro;
 }
