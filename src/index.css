@@ -67,7 +67,6 @@ nav{
 .lower-sidebar-up{
   display: inline-block;
   padding: 7px 15px;
-  /* border-bottom: 1px solid gainsboro; */
 }
 
 .private{
@@ -88,3 +87,19 @@ nav{
   padding: 7px 15px;
   border-top: 1px solid gainsboro;
 }
+
+.main-body{
+  margin: 13px 30px;
+}
+
+.upper-body{
+  /* background-color: red; */
+  padding-bottom: 20px;
+  border-bottom: 1px solid gainsboro;
+}
+
+.upper-body-up{
+  display: flex;
+  align-items: center;
+}
+
