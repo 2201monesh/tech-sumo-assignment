@@ -40,7 +40,17 @@ export default function Body() {
       </div>
 
 
-      <div className="lower-body"></div>
+      <div className="lower-body">
+        <div className="table-head">
+            <p>Typeform</p>
+            <p>Questions</p>
+            <p>Responses</p>
+            <p>Completion</p>
+            <p>Upgraded</p>
+            <p>Integrations</p>
+        </div>
+        <div className="table-body"></div>
+      </div>
     </div>
   )
 }

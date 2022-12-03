@@ -1,18 +1,23 @@
 import React from 'react'
 import Button from '@mui/material/Button';
+import Boximage from './Boximage';
 
 export default function Header() {
   return (
     <nav>
     <div className="main-header">
      <div className="nav-start">
-       <img src="" alt="img" />
-       <p>Monesh Goyal</p>
+       {/* <img src="" alt="img" /> */}
+       <Boximage />
+       <p className='bold-text'>Moneshgoyal007</p>
      </div>
 
      <div className="nav-end">
+      <div className="view-plan-button">
        <Button variant='contained' size='small' style ={{backgroundColor: 'green', textTransform: 'none'}}>View plans</Button>
-       <img src="" alt="img" />
+      </div> 
+       {/* <img src="" alt="img" /> */}
+       <Boximage />
      </div>
      </div>
     </nav>

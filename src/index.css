@@ -30,12 +30,25 @@ nav{
   align-items: center;
 }
 
+.nav-end {
+  display: flex;
+  align-items: center;
+}
+
 .nav-start img{
   margin-right: 12px;
 }
 
+.nav-start p{
+  padding-left: 9px;
+}
+
 .nav-end img{
   margin-left: 12px;
+}
+
+.view-plan-button{
+  padding-right: 10px;
 }
 
 .main-section{
@@ -103,3 +116,20 @@ nav{
   align-items: center;
 }
 
+.sidebar-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-height: 55px;
+}
+
+.table-head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 9px;
+}
+
+.table-head p{
+  font-size: smaller;
+}
