@@ -38,11 +38,11 @@ export default function Body() {
             </div>
             <div className="button-right">
               <Stack direction='row' spacing={2}>
-                <Button onClick={deleteComponent} endIcon={<KeyboardArrowDownIcon />} style={{backgroundColor: '#E0E0E0', color: 'black'}} size='small' variant="contained">Delete itemss</Button>
+                <Button onClick={deleteComponent} endIcon={<KeyboardArrowDownIcon />} style={{backgroundColor: '#E0E0E0', color: 'black', boxShadow: 'none'}} size='small' variant="contained">Delete itemss</Button>
                 <div className="group-button">
                  <ButtonGroup>
-                  <Button startIcon={<AppsIcon />} style={{backgroundColor: '#E0E0E0', color: 'black'}} size='small' variant="contained">Grid</Button>
-                  <Button startIcon={<ViewListIcon />} style={{backgroundColor: '#707070', color: 'white'}} size='small' variant="contained">List</Button>
+                  <Button startIcon={<AppsIcon />} style={{backgroundColor: '#E0E0E0', color: 'black', boxShadow: 'none'}} size='small' variant="contained">Grid</Button>
+                  <Button startIcon={<ViewListIcon />} style={{backgroundColor: '#707070', color: 'white', boxShadow: 'none'}} size='small' variant="contained">List</Button>
                  </ButtonGroup> 
                 </div>
               </Stack>  
