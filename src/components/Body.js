@@ -34,11 +34,11 @@ export default function Body() {
         <div className="upper-body-low">
           <Stack direction='row' spacing={95}>
             <div className="button-left">
-                <Button onClick={addComponent} startIcon={<AddIcon />} size='small' style ={{backgroundColor: 'black', textTransform: 'none', color: 'white'}} variant="outlined">Create typeform</Button>
+                <Button onClick={addComponent} startIcon={<AddIcon />} size='small' style ={{backgroundColor: 'black', textTransform: 'none', color: 'white'}} variant="outlined">Add typeform</Button>
             </div>
             <div className="button-right">
               <Stack direction='row' spacing={2}>
-                <Button onClick={deleteComponent} endIcon={<KeyboardArrowDownIcon />} style={{backgroundColor: '#E0E0E0', color: 'black', boxShadow: 'none'}} size='small' variant="contained">Delete itemss</Button>
+                <Button onClick={deleteComponent} endIcon={<KeyboardArrowDownIcon />} style={{backgroundColor: '#E0E0E0', color: 'black', boxShadow: 'none'}} size='small' variant="contained">Delete list</Button>
                 <div className="group-button">
                  <ButtonGroup>
                   <Button startIcon={<AppsIcon />} style={{backgroundColor: '#E0E0E0', color: 'black', boxShadow: 'none'}} size='small' variant="contained">Grid</Button>
