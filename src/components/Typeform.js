@@ -9,11 +9,12 @@ export default function Typeform() {
     <div className='main-typeform'>
        <div className="private">
           <div className="private-left">
-           <ArrowDropDownIcon fontSize='large' style={{marginRight: '3px', marginLeft: '-9px'}}/>
-           <PersonIcon fontSize='small' style={{marginRight: '3px'}}/>
-           <p>PRIVATE</p>
+           <ArrowDropDownIcon fontSize='large' style={{marginRight: '3px', marginLeft: '-9px', color: '#707070'}}/>
+           <PersonIcon fontSize='small' style={{marginRight: '3px', color: '#707070'}}/>
+           <p style={{color: '#707070'}}>PRIVATE</p>
           </div>
-          <AddBoxIcon fontSize='large' style={{marginRight: '-4px'}} />
+          {/* <AddBoxIcon fontSize='large' style={{marginRight: '-4px'}} /> */}
+          <div style={{width: '30px', height: '30px', backgroundColor: '#E0E0E0' , borderRadius: '4px', display: 'flex', alignItems: 'center', justifyContent: 'center'}} >+</div>
        </div>
 
        <div className="dynamic-functionality">

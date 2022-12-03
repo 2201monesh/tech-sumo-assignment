@@ -38,15 +38,16 @@ export default function Sidebar() {
      <div className="lower-sidebar-up">
       <p><span className='bold-text'>Bhavya Khurana's</span> account</p>
       <p className='font-small'>Responses collected</p>
-      <LinearProgress />
+      {/* <LinearProgress /> */}
+      <div className="linear-progress"></div>
       <p><span className='bold-text'>0 </span>/ 10</p>
-      <p className='font-small'>Resets on Dec 30</p>
+      <p className='font-small' style={{color: 'gray', fontSize: '12px'}}>Resets on Dec 30</p>
       <p className="green-text">Increase response limit</p>
      </div>
      <div className="lower-sidebar-down">
-      <DashboardCustomizeIcon fontSize='small' style={{marginRight: '10px'}}/>
+      <DashboardCustomizeIcon fontSize='small' style={{marginRight: '10px', color: 'gray'}}/>
       <p className='bold-text' style={{marginRight: '50px'}}>Apps & Integrations</p>
-      <ArrowForwardIosIcon fontSize='small' />
+      <ArrowForwardIosIcon fontSize='small' style={{color: 'gray'}} />
      </div>
     </div>
     </div>

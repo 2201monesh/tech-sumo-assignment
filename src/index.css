@@ -103,10 +103,10 @@ nav{
 
 .main-body{
   margin: 13px 30px;
+  /* background-color: #F0F0F0; */
 }
 
 .upper-body{
-  /* background-color: red; */
   padding-bottom: 20px;
   border-bottom: 1px solid gainsboro;
 }
@@ -128,8 +128,82 @@ nav{
   align-items: center;
   justify-content: space-between;
   margin-top: 9px;
+  width: 100%;
+  margin-bottom: 3px;
 }
 
 .table-head p{
   font-size: smaller;
+}
+
+.table-head-left, .table-head-middle, .table-head-right{
+  display: flex;
+  align-items: center;
+}
+
+.table-head-left{
+  padding-left: 12px;
+  width: 50%;
+}
+
+.table-head-middle{
+  width: 30%;
+  justify-content: space-between;
+  padding-right: 45px;
+}
+
+.table-head-right{
+  width: 20%;
+  padding-left: 35px;
+}
+
+.maintable-main{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  /* border: 1px solid gainsboro; */
+  border-radius: 10px;
+  margin-bottom: 12px;
+  background-color: white;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.maintable-left, .maintable-middle, .maintable-right{
+  display: flex;
+  align-items: center;
+}
+
+.maintable-left{
+  padding-left: 12px;
+  width: 50%;
+}
+
+.maintable-middle{
+  width: 30%;
+  justify-content: space-between;
+  padding-right: 22px;
+  margin-left: 27px;
+}
+
+.maintable-right{
+  width: 20%;
+  justify-content: space-between;
+  padding-right: 12px;
+  padding-left: 35px;
+}
+
+.maintable-left-1{
+  padding-right: 10px;
+}
+
+.maintable-left-2{
+  line-height: 7px;
+}
+
+.linear-progress{
+  border: 2px solid #e8e8e8;
+  background-color: #e8e8e8;
+  border-radius: 3px;
+  width: 225px;
 }
