@@ -38,7 +38,7 @@ export default function Body() {
             </div>
             <div className="button-right">
               <Stack direction='row' spacing={2}>
-                <Button onClick={deleteComponent} endIcon={<KeyboardArrowDownIcon />} style={{backgroundColor: '#E0E0E0', color: 'black', boxShadow: 'none'}} size='small' variant="contained">Delete list</Button>
+                <Button onClick={deleteComponent} endIcon={<KeyboardArrowDownIcon />} style={{backgroundColor: '#E0E0E0', color: 'black', boxShadow: 'none'}} size='small' variant="contained">Delete Typeform</Button>
                 <div className="group-button">
                  <ButtonGroup>
                   <Button startIcon={<AppsIcon />} style={{backgroundColor: '#E0E0E0', color: 'black', boxShadow: 'none'}} size='small' variant="contained">Grid</Button>
